@@ -5,15 +5,6 @@ It includes two main classes:
 Snake (extends JFrame and invokes the GameControl class)
 GameControl (extends JPanel)
 
-The GameControl class provides the following methods:
-
-GameControl() - It initializes Board Panel.
-loadImages() - It loads images of the Snakehead, Snake body, and food.
-initGame() - It initializes the Game.
-checkCollision() - It checks the collision of the Snake's head with an obstacle (itself/food/wall).
-locateApple() - It randomizes Apple's position every time.
-gameOver() - It displays the Game Over massage and the player's score.
-
 Functionalities:
 
 The player can move the snake left, right, up, and down as per the given direction using respective arrow keys.
