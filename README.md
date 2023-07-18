@@ -1,30 +1,30 @@
-It is a Java project that uses the inheritence, abstraction, and encapsulation concepts found in object-oriented programming. All the parts are organised using the JAVA Swing and AWT library.
+It is a Java project that uses the inheritance, abstraction, and encapsulation concepts found in object-oriented programming. All the parts are organized using the JAVA Swing and AWT libraries.
 
-It icludes two main classes:
+It includes two main classes:
 
 Snake (extends JFrame and invokes the GameControl class)
 GameControl (extends JPanel)
 
-The GameControl class provides following methods:
+The GameControl class provides the following methods:
 
 GameControl() - It initializes Board Panel.
-loadImages() - It loads images of Snake head, Snake body and food.
-initGame() - It initializes Game.
-checkCollision() - It checks collision of Snake's head with an obstacle (itself/food/wall).
-locateApple() - It randomize Apple position every time.
-gameOver() - It displays Game Over massage and player's score.
+loadImages() - It loads images of the Snakehead, Snake body, and food.
+initGame() - It initializes the Game.
+checkCollision() - It checks the collision of the Snake's head with an obstacle (itself/food/wall).
+locateApple() - It randomizes Apple's position every time.
+gameOver() - It displays the Game Over massage and the player's score.
 
 Functionalities:
 
-The player can move the snake left, rigt, up, and down as per the given direction using respective arrow keys.
-Whenever the snake eats food, its length increases by one and live score is displayed on screen.
-The food appears on random position each time, either when the snake eats one or the new game is started.
-When the snake collides with itself or with any of the wall, the "Game Over" massage it displayed along with player's score.
+The player can move the snake left, right, up, and down as per the given direction using respective arrow keys.
+Whenever the snake eats food, its length increases by one, and a live score is displayed on the screen.
+The food appears in a random position each time, either when the snake eats one or the new game is started.
+When the snake collides with itself or with any of the walls, the "Game Over" message is displayed along with the player's score.
 
 Design elements -
 
-Snake head: represented by green dot.
-Snake body: represented by red dot.
+Snakehead: represented by a green dot.
+Snake body: represented by a red dot.
 Food: represented by an apple.
 
 
